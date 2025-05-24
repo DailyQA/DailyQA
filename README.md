@@ -1,16 +1,13 @@
-## Hi there 👋
+## Data Introduction
 
-<!--
-**DailyQA/DailyQA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+* data.query: The generated queries and the metadata of the wiki infoboxs. 
 
-Here are some ideas to get you started:
+    * "query": The generated query.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    * "classify": The domain of the query.
+
+* data.qa: The queries and answers for specific dates.
+
+* scripts.get_answer.sh: The script for obtaining the answers for the specified dates. You can modify "search_dates" to specify the dates.
+
+
